@@ -1,0 +1,25 @@
+{
+  "name": "mainprogram",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "wabot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon wabot.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "satrio",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "indonesian-badwords": "^1.0.1",
+    "node-fetch": "^3.3.0",
+    "openai": "^3.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#fix-buttons-list"
+  }
+}
