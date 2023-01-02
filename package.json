@@ -6,7 +6,7 @@
   "main": "wabot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node wabot.js"
+    "run": "nodemon wabot.js"
   },
   "keywords": [
     "npm"
